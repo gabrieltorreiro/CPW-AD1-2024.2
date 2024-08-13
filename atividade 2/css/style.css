@@ -1,0 +1,72 @@
+body {
+  background-color: #ddcc55;
+  color: #000000;
+  font-size: 16px;
+}
+
+body,
+.apres {
+  font-family: "stoke", "Lucida Bright", "liberation";
+}
+
+header {
+  display: block;
+  margin-bottom: 1px;
+}
+
+ol,
+ul {
+  line-height: 200%;
+}
+
+.imgLogo {
+  border-bottom: 3px solid #222222;
+  margin-bottom: 6px;
+  padding-bottom: 15px;
+  color: #222222;
+}
+
+.ender,
+nav {
+  font-family: "karla", "verdana", "ubuntu";
+}
+
+.ender {
+  float: right;
+  text-align: right;
+  line-height: 140%;
+  font-size: 14px;
+}
+
+.apres {
+  text-align: center;
+  font-size: 16px;
+}
+
+section {
+  display: block;
+  width: 70%;
+  float: right;
+}
+
+nav {
+  display: block;
+  width: 20%;
+  float: left;
+}
+
+nav ul {
+  color: #000000;
+  line-height: 230%;
+  margin-top: 40px;
+  list-style-type: square;
+}
+
+a:link {
+  color: #222222;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #222222;
+}
