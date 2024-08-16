@@ -3,14 +3,6 @@ body {
   color: #000000;
 }
 
-table {
-  width: 100%;
-}
-
-address {
-  text-align: right;
-}
-
 .menu,
 address {
   font-family: Verdana, "Ubuntu";
@@ -20,23 +12,6 @@ address {
   font-family: "Lucida Bright", "Liberation";
 }
 
-.menu {
-  list-style-type: square;
-  vertical-align: top;
-  padding-top: 30px;
-}
-
-/* .menu ul { */
-/* } */
-
-.menu li {
-  margin-bottom: 15px;
-}
-
-a:link {
-  color: #222222;
-}
-
-a:visited {
+a:link, a:visited {
   color: #222222;
 }
