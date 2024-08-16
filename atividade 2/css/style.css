@@ -9,26 +9,40 @@ body,
   font-family: "stoke", "Lucida Bright", "liberation";
 }
 
+.ender,
+nav {
+  font-family: "karla", "verdana", "ubuntu";
+}
+
 header {
   display: block;
   margin-bottom: 1px;
 }
 
-ol,
-ul {
-  line-height: 200%;
+nav {
+  display: block;
+  width: 20%;
+  float: left;
 }
 
-.imgLogo {
-  border-bottom: 3px solid #222222;
-  margin-bottom: 6px;
-  padding-bottom: 15px;
+section {
+  display: block;
+  width: 70%;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
   color: #222222;
 }
 
-.ender,
-nav {
-  font-family: "karla", "verdana", "ubuntu";
+ol,
+ul {
+  line-height: 200%;
 }
 
 .ender {
@@ -38,21 +52,16 @@ nav {
   font-size: 14px;
 }
 
+.imgLogo {
+  border-bottom: 3px solid #222222;
+  margin-bottom: 6px;
+  padding-bottom: 15px;
+  color: #222222;
+}
+
 .apres {
   text-align: center;
   font-size: 16px;
-}
-
-section {
-  display: block;
-  width: 70%;
-  float: right;
-}
-
-nav {
-  display: block;
-  width: 20%;
-  float: left;
 }
 
 nav ul {
@@ -60,13 +69,4 @@ nav ul {
   line-height: 230%;
   margin-top: 40px;
   list-style-type: square;
-}
-
-a:link {
-  color: #222222;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #222222;
 }
