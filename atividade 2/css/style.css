@@ -70,3 +70,37 @@ nav ul {
   margin-top: 40px;
   list-style-type: square;
 }
+
+/* atividade 3 - Planos */
+
+.título {
+  text-align: center;
+}
+
+.listaPlano {
+  width: 300px;
+  color: #202020;
+  background-color: #EEEEBB;
+  font-size: 12px;
+  padding: 10px 10px 10px 30px;
+  border: 3px solid #202020;
+  margin: 0px auto 10px auto;
+  list-style-type: square;
+}
+
+.listaPlano ul{
+  list-style-type: square;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+.listPlano ol{
+  color: #202020;
+  list-style-type: lower-alpha;
+}
+
+.preco {
+  color: #cc0000;
+}
