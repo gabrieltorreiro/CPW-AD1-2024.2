@@ -134,15 +134,112 @@ h4 {
   border: 1px solid;
   padding: 10px;
   font-size: 12px;
-  background-color: #EEEEBB;
+  background-color: #eeeebb;
 }
 
 .tabEquip .imgCel {
   width: 100px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .imgCel img {
   width: 100px;
   height: 100px;
+}
+
+/* atividade 5 - Equipamentos */
+
+.formul {
+  width: 400px;
+  padding: auto 20px;
+  margin: 0px auto 10px auto;
+  color: #202020;
+  background-color: #eeeebb;
+  border: 3px solid #202020;
+  font-size: 12px;
+}
+
+.fsPessoal {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fsGenero {
+  float: right;
+  margin: 10px 10px auto auto;
+}
+
+.fsCartao {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linhaNome {
+  height: 30px;
+  width: 340px;
+  padding-top: 8px;
+}
+
+.linhaDados {
+  height: 130px;
+  width: 340px;
+}
+
+.ColDirMat {
+  float: right;
+}
+
+.ColEsqPes {
+  width: 70px;
+  float: left;
+  display: block;
+}
+
+.ColLabCrd {
+  width: 270px;
+  height: 30px;
+  text-align: left;
+  float: left;
+}
+
+.ColValTot {
+  width: 220px;
+  text-align: left;
+  float: left;
+  display: block;
+}
+
+.entDireita {
+  margin-top: 20px;
+  float: right;
+}
+
+.inpNome {
+  width: 220px;
+}
+
+.numDD {
+  width: 35px;
+}
+
+.numQD {
+  width: 50px;
+}
+
+.inpNCC {
+  width: 130px;
+}
+
+.inpTelef {
+  width: 90px;
+}
+
+.inpMat {
+  width: 70px;
+}
+
+.inpVal {
+  width: 50px;
 }
