@@ -104,7 +104,8 @@ section .preco {
 
 /* atividade 4 - Equipamentos */
 
-.tabEquip {
+section .tabEquip {
+  margin: auto;
   border: 1px solid;
   border-collapse: separate;
   width: 510px;
@@ -112,34 +113,34 @@ section .preco {
   font-size: 14px;
 }
 
-.tabTitulo {
+section .tabTitulo {
   background-color: #402020;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
-.tabSubTit {
+section .tabSubTit {
   background-color: #802020 !important;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
-.tabEquip th {
+section .tabEquip th {
   border: 1px solid;
   padding: 10px;
 }
 
-.tabEquip td {
+section .tabEquip td {
   border: 1px solid;
   padding: 10px;
   font-size: 12px;
-  background-color: #eeeebb;
+  background-color: #EEEEBB;
 }
 
-.tabEquip .imgCel {
+section .tabEquip .imgCel {
   width: 100px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
-.imgCel img {
+section .imgCel img {
   width: 100px;
   height: 100px;
 }
