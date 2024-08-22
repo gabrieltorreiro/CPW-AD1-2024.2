@@ -80,7 +80,7 @@ section .título {
 section .listaPlano {
   width: 300px;
   color: #202020;
-  background-color: #EEEEBB;
+  background-color: #eeeebb;
   font-size: 12px;
   padding: 10px 10px 10px 30px;
   border: 3px solid #202020;
@@ -99,7 +99,7 @@ section .listPlano ol {
 }
 
 section .preco {
-  color: #CC0000;
+  color: #cc0000;
 }
 
 /* atividade 4 - Equipamentos */
@@ -115,12 +115,12 @@ section .tabEquip {
 
 section .tabTitulo {
   background-color: #402020;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 section .tabSubTit {
   background-color: #802020 !important;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 section .tabEquip th {
@@ -132,12 +132,12 @@ section .tabEquip td {
   border: 1px solid;
   padding: 10px;
   font-size: 12px;
-  background-color: #EEEEBB;
+  background-color: #eeeebb;
 }
 
 section .tabEquip .imgCel {
   width: 100px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 section .imgCel img {
@@ -147,9 +147,10 @@ section .imgCel img {
 
 /* atividade 5 - Inscrição */
 
-.formul {
+section .formul {
   width: 400px;
-  padding: auto 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0px auto 10px auto;
   color: #202020;
   background-color: #eeeebb;
@@ -157,87 +158,88 @@ section .imgCel img {
   font-size: 12px;
 }
 
-.fsPessoal {
+section fieldset.fsPessoal {
   width: 340px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.fsGenero {
+section fieldset.fsGenero {
   float: right;
-  margin: 10px 10px auto auto;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
-.fsCartao {
+section fieldset.fsCartao {
   width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.linhaNome {
+section fieldset .linhaNome {
   height: 30px;
   width: 340px;
   padding-top: 8px;
 }
 
-.linhaDados {
+section fieldset .linhaDados {
   height: 130px;
   width: 340px;
 }
 
-.ColDirMat {
+section fieldset .ColDirMat {
   float: right;
 }
 
-.ColEsqPes {
+section fieldset .ColEsqPes {
   width: 70px;
   float: left;
   display: block;
 }
 
-.ColLabCrd {
+section fieldset .ColLabCrd {
   width: 270px;
   height: 30px;
   text-align: left;
   float: left;
 }
 
-.ColValTot {
+section fieldset .ColValTot {
   width: 220px;
   text-align: left;
   float: left;
   display: block;
 }
 
-.entDireita {
-  margin-top: 20px;
+section .entDireita {
+  margin-right: 20px;
   float: right;
 }
 
-.inpNome {
+section input.inpNome {
   width: 220px;
 }
 
-.numDD {
+section input.numDD {
   width: 35px;
 }
 
-.numQD {
+section input.numQD {
   width: 50px;
 }
 
-.inpNCC {
+section input.inpNCC {
   width: 130px;
 }
 
-.inpTelef {
+section input.inpTelef {
   width: 90px;
 }
 
-.inpMat {
+section input.inpMat {
   width: 70px;
 }
 
-.inpVal {
+section input.inpVal {
   width: 50px;
 }
