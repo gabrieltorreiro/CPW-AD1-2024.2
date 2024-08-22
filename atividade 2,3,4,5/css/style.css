@@ -73,36 +73,33 @@ nav ul {
 
 /* atividade 3 - Planos */
 
-.título {
+section .título {
   text-align: center;
 }
 
-.listaPlano {
+section .listaPlano {
   width: 300px;
   color: #202020;
-  background-color: #eeeebb;
+  background-color: #EEEEBB;
   font-size: 12px;
   padding: 10px 10px 10px 30px;
   border: 3px solid #202020;
   margin: 0px auto 10px auto;
   list-style-type: square;
+  text-align: left;
 }
 
-.listaPlano ul {
-  list-style-type: square;
-}
-
-h4 {
+section h4 {
   font-size: 14px;
 }
 
-.listPlano ol {
+section .listPlano ol {
   color: #202020;
   list-style-type: lower-alpha;
 }
 
-.preco {
-  color: #cc0000;
+section .preco {
+  color: #CC0000;
 }
 
 /* atividade 4 - Equipamentos */
