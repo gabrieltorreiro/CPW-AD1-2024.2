@@ -1,3 +1,4 @@
+/* atividade 2 */
 body {
   background-color: #ddcc55;
   color: #000000;
@@ -56,7 +57,6 @@ ul {
   border-bottom: 3px solid #222222;
   margin-bottom: 6px;
   padding-bottom: 15px;
-  color: #222222;
 }
 
 .apres {
@@ -147,7 +147,7 @@ h4 {
   height: 100px;
 }
 
-/* atividade 5 - Equipamentos */
+/* atividade 5 - Inscrição */
 
 .formul {
   width: 400px;
