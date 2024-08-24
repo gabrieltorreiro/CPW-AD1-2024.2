@@ -38,138 +38,94 @@
       </ul>
     </nav>
     <section class="apres">
-      <h3 class="titulo">Inscrição</h3>
-      <form class="formul">
-        <fieldset class="fsPessoal">
+      <h3>Inscrição</h3>
+      <form>
+        <fieldset>
           <legend>Dados Pessoais</legend>
-          <div class="linhaNome">
-            <label for="nome">Nome:</label>
-            <input type="text" class="inpNome" name="nome" id="nome" />
-          </div>
-          <div class="linhaDados">
-            <label for="telefone">Telefone:</label>
-            <input type="text" class="inpTelef" name="telefone" id="telefone" />
-
-            <label for="celular">Celular:</label>
-            <input type="text" class="inpTelef" name="celular" id="celular" />
-
-            <label for="idade">Idade:</label>
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" />
+          <label for="telefone">Telefone:</label>
+          <input type="text" name="telefone" id="telefone" />
+          <label for="celular">Celular:</label>
+          <input type="text" name="celular" id="celular" />
+          <label for="idade">Idade:</label>
+          <input type="number" name="idade" id="idade" min="18" max="100" />
+          <fieldset>
+            <legend>Gênero</legend>
+            <input
+              type="radio"
+              name="masculino."
+              id="masculino"
+              value="Masculino"
+            />
+            <label for="masculino">Masculino</label><br />
+            <input
+              type="radio"
+              name="feminino."
+              id="feminino"
+              value="Feminino"
+            />
+            <label for="feminino">Feminino</label><br />
+            <input type="radio" name="outros." id="outros" value="Outros" />
+            <label for="outros">Outros</label>
+          </fieldset>
+        </fieldset>
+        <fieldset>
+          <legend>Matrícula</legend>
+          <label for="matriculado">Matriculado?</label>
+          <input type="checkbox" name="matriculado" id="matriculado" />
+          <br />
+          <label for="plano">Plano:</label>
+          <select name="plano" id="plano">
+            <option value="anual">Anual</option>
+            <option value="semestral">Semestral</option>
+            <option value="mensal">Mensal</option>
+          </select>
+          <label for="numeroInsc">Número:</label>
+          <input type="text" name="numeroInsc" id="numeroInsc" />
+          <br />
+          <label for="atividade">Atividade:</label>
+          <select name="atividade" id="atividade">
+            <option value="academia">Academia</option>
+            <option value="natacao">Natação</option>
+            <option value="combo">Combo</option>
+          </select>
+          <fieldset>
+            <legend>Cartão</legend>
+            <label for="bandeira">Bandeira:</label>
+            <input type="radio" name="visa" id="visa" />
+            <label for="visa">Visa</label>
+            <input type="radio" name="master" id="master" />
+            <label for="master">Master</label>
+            <input type="radio" name="elo" id="elo" />
+            <label for="elo">Elo</label>
+            <label for="validade">Validade:</label>
             <input
               type="number"
-              class="numDD"
-              name="idade"
-              id="idade"
-              min="18"
-              max="100"
+              name="mes"
+              id="mes"
+              min="1"
+              max="12"
+              size="2"
             />
-
-            <fieldset class="fsGenero">
-              <legend>Gênero</legend>
-              <input
-                type="radio"
-                name="masculino."
-                id="masculino"
-                value="Masculino"
-              />
-              <label for="masculino">Masculino</label><br />
-              <input
-                type="radio"
-                name="feminino."
-                id="feminino"
-                value="Feminino"
-              />
-              <label for="feminino">Feminino</label><br />
-              <input type="radio" name="outros." id="outros" value="Outros" />
-              <label for="outros">Outros</label>
-            </fieldset>
-          </div>
-        </fieldset>
-        <fieldset class="fsPessoal">
-          <legend>Matrícula</legend>
-          <div class="linhaNome">
-            <label for="matriculado">Matriculado?</label>
-            <input type="checkbox" name="matriculado" id="matriculado" />
-            <div class="ColDirMat">
-              <label for="numeroInsc">Número:</label>
-              <input
-                type="text"
-                class="inpMat"
-                name="numeroInsc"
-                id="numeroInsc"
-              />
-            </div>
-          </div>
-          <div class="linhaNome">
-            <label for="atividade">Atividade:</label>
-            <select name="atividade" id="atividade">
-              <option value="academia">Academia</option>
-              <option value="natacao">Natação</option>
-              <option value="combo">Combo</option>
-            </select>
-            <div class="ColDirMat">
-              <label for="plano">Plano:</label>
-              <select name="plano" id="plano">
-                <option value="anual">Anual</option>
-                <option value="semestral">Semestral</option>
-                <option value="mensal">Mensal</option>
-              </select>
-            </div>
-          </div>
-          <fieldset class="fsCartao">
-            <legend>Cartão</legend>
-            <div class="ColLabCrd">
-              <label for="bandeira">Bandeira:</label>
-              <input type="radio" name="visa" id="visa" />
-              <label for="visa">Visa</label>
-              <input type="radio" name="master" id="master" />
-              <label for="master">Master</label>
-              <input type="radio" name="elo" id="elo" />
-              <label for="elo">Elo</label>
-            </div>
-            <div class="ColLabCrd">
-              <label for="validade">Validade:</label>
-              <input
-                type="number"
-                class="numDD"
-                name="mes"
-                id="mes"
-                min="1"
-                max="12"
-                size="2"
-              />
-              /
-              <input
-                type="number"
-                class="numQD"
-                name="ano"
-                id="ano"
-                min="2024"
-                max="2050"
-                size="4"
-              />
-            </div>
-            <div class="ColLabCrd">
-              <label for="numeroCartao">Número:</label>
-              <input
-                type="text"
-                class="inpNCC"
-                name="numeroCartao"
-                id="numeroCartao"
-              />
-            </div>
+            /
+            <input
+              type="number"
+              name="ano"
+              id="ano"
+              min="2024"
+              max="2050"
+              size="4"
+            />
+            <label for="numeroCartao">Número:</label>
+            <input type="text" name="numeroCartao" id="numeroCartao" />
           </fieldset>
-          <div class="linhaNome">
-            <div class="ColValTot">
-              <input type="button" value="Matrícula+Plano" />
-            </div>
-            <label for="valor">Valor: R$</label>
-            <input type="text" class="inpVal" name="valor" id="valor" />
-          </div>
+          <input type="button" value="Matrícula+Plano" />
+          <label for="valor">Valor: R$</label>
+          <input type="text" name="valor" id="valor" />
         </fieldset>
-        <div class="entDireita">
-          <input type="submit" class="entDirei.ta" value="Enviar" />
-          <input type="button" class="entDirei.ta" value="Limpar" />
-        </div>
+        <input type="submit" value="Enviar" />
+        <input type="button" value="Limpar" />
       </form>
     </section>
   </body>
