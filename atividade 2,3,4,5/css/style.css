@@ -150,18 +150,19 @@ section .imgCel img {
 section .formul {
   width: 400px;
   padding-top: 20px;
-  padding-bottom: 20px;
   margin: 0px auto 10px auto;
   color: #202020;
   background-color: #eeeebb;
   border: 3px solid #202020;
   font-size: 12px;
+  box-sizing: border-box;
 }
 
 section fieldset.fsPessoal {
   width: 340px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
 
 section fieldset.fsGenero {
@@ -171,20 +172,20 @@ section fieldset.fsGenero {
 }
 
 section fieldset.fsCartao {
-  width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
 
 section fieldset .linhaNome {
-  height: 30px;
   width: 340px;
-  padding-top: 8px;
+  padding-top: 10px;
+  text-align: left;
 }
 
 section fieldset .linhaDados {
   height: 130px;
   width: 340px;
+  text-align: left;
 }
 
 section fieldset .ColDirMat {
@@ -214,6 +215,7 @@ section fieldset .ColValTot {
 section .entDireita {
   margin-right: 20px;
   float: right;
+  margin-top: 5px;
 }
 
 section input.inpNome {
@@ -221,11 +223,11 @@ section input.inpNome {
 }
 
 section input.numDD {
-  width: 35px;
+  width: 40px;
 }
 
 section input.numQD {
-  width: 50px;
+  width: 55px;
 }
 
 section input.inpNCC {
@@ -242,4 +244,17 @@ section input.inpMat {
 
 section input.inpVal {
   width: 50px;
+}
+
+/* Personalizado */
+
+section fieldset .linhaPessoal {
+  margin-top: 15px;
+  width: fit-content;
+}
+
+section fieldset .BlocoEsq {
+  display: block; 
+  width: fit-content;
+  float: left;
 }
